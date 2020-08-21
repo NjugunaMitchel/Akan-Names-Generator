@@ -19,4 +19,9 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 1. An input section to enter your date of birth 
 2. Get an out put of which day you where born and the Akan Name related to it
  
+ *follow me on _https://twitter.com_*
+
+ **Created & maintained by _Mitchel Njuguna_** micodes
+ 
+  Copyright 2020
 
