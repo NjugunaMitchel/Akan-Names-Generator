@@ -53,4 +53,35 @@ submit.addEventListener('click',(e) => {
        {
            name.innerHTML = male[6];
            day.innerHTML = `you where born on a ${days[6 ]}`
+       } }else
+       {
+        if( d == 0){
+            name.innerHTML = female[0];
+            day.innerHTML = `you where born on a ${days[0]}`;
+        }else if (d == 1){
+            name.innerHTML = female[1];
+            day.innerHTML = `you where born on a ${days[1]}`;
+        }else if (d == 2){
+            name.innerHTML = female[2];
+            day.innerHTML = `you where born on a ${days[2]}`;
+        }else if (d == 3){
+            name.innerHTML = female[3];
+            day.innerHTML = `you where born on a ${days[3]}`;
+        }else if (d == 4){
+            name.innerHTML = female[4];
+            day.innerHTML = `you where born on a ${days[4]}`;
+        }else if (d == 5){
+            name.innerHTML = female[5];
+            day.innerHTML = `you where born on a ${days[5]}`;
+        }else 
+        {
+            name.innerHTML = female[6];
+            day.innerHTML = `you where born on a ${days[6]}`;
+        }
+    
        }
+    
+       
+       
+    })
+    
