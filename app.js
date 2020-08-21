@@ -25,3 +25,32 @@ submit.addEventListener('click',(e) => {
 
     //CALCULATE THE DAY
     let d = Math.floor((((( cc/4 )- 2 )* (cc - 1 ))+(( (5 * yy) / 4 ))+(( (26 * ( mm + 1 ) )/ 10)) + dd) % 7);
+
+    let name = document.getElementById('name');
+    let day = document.getElementById('day');
+    
+    //match day to number
+   if (gender.value == 'male'){
+       if( d == 0){
+           name.innerHTML = male[0]
+           day.innerHTML = `you where born on a ${days[0]}`
+       }else if (d == 1){
+           name.innerHTML = male[1];
+           day.innerHTML = `you where born on a ${days[1]}`
+       }else if (d == 2){
+           name.innerHTML = male[2];
+           day.innerHTML = `you where born on a ${days[2]}`
+       }else if (d == 3){
+           name.innerHTML = male[3];
+           day.innerHTML = `you where born on a ${days[3]}`
+       }else if (d == 4){
+           name.innerHTML = male[4];
+           day.innerHTML = `you where born on a ${days[4]}`
+       }else if (d == 5){
+           name.innerHTML = male[5];
+           day.innerHTML = `you where born on a ${days[5]}`
+       }else 
+       {
+           name.innerHTML = male[6];
+           day.innerHTML = `you where born on a ${days[6 ]}`
+       }
