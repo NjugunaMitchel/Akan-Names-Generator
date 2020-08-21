@@ -23,5 +23,5 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 
  **Created & maintained by _Mitchel Njuguna_** micodes
  
-  Copyright 2020
+  LICENSED BY *MIT* Copyright 2020
 
