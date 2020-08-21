@@ -9,31 +9,34 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="jumbotron">
+       <div class="grid4">
+         <div class="jumbotron">
             <h1>AKAN NAMES GENERATOR</h1>
             <h3> </h3>
               <P>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees</P>
               <P>Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.  </P>
         </div>
-      <div class="grid4">
+      
+        <form>
+            <h4>Input your birthday</h4>
+              <label> Date</label> <br>
+               <input type="date" id="input"> <br>
+               <label>Gender</label><br>       
+               <select id="gender">
+                   <option value="Male">Male</option>
+                   <option value="Female">Female</option>
+               </select> <br>
 
-          <form>
-              <h4>Input your birthday</h4>
-                <label> Date</label> <br>
-                 <input type="date"> <br>
-                 <label>Gender</label><br>       
-                 <select>
-                     <option value="Male">Male</option>
-                     <option value="Female">Female</option>
-                 </select> <br>
-  
-                 <button>Submit</button>
-          </form>
+               <button id="Submit">Submit</button>
+        </form>
+    </div>
   
           <div id="display"> 
-              <p> </p>
+              <p> <span id="name"> </span>
+                  <span id="day"></span>
+            </p>
           </div>
-      </div>
+      
       </div>
 
     <script src="app.js"></script>
