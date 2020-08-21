@@ -14,6 +14,5 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 7. To modify it, changed the code and reload  to see results.
  **Use live server to auto reload your work**
 
- *follow me on _https://twitter.com_*
- **Created & maintained by _Mitchel Njuguna_** micodes Copyright 2020
+
 
