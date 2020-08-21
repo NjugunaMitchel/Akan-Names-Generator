@@ -4,7 +4,7 @@ let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturda
 
 let input = document.getElementById('input');
 let gender = document.getElementById('gender');
-let  submit = document.getElementById('submit');
+let submit = document.getElementById('submit');
 
 
 submit.addEventListener('click',(e) => {
@@ -28,60 +28,75 @@ submit.addEventListener('click',(e) => {
 
     let name = document.getElementById('name');
     let day = document.getElementById('day');
+    let greeting = document.getElementById('greeting');
     
     //match day to number
    if (gender.value == 'male'){
        if( d == 0){
-           name.innerHTML = male[0]
+           greeting.innerHTML=`Hello ${male[0]}`;
+           name.innerHTML = `Your Akan name is ${male[0]}`
            day.innerHTML = `you where born on a ${days[0]}`
        }else if (d == 1){
-           name.innerHTML = male[1];
+           greeting.innerHTML=`Hello ${male[1]}`;
+           name.innerHTML = `Your Akan name is ${male[1]}`;
            day.innerHTML = `you where born on a ${days[1]}`
        }else if (d == 2){
-           name.innerHTML = male[2];
+           greeting.innerHTML=`Hello ${male[2]}`;
+           name.innerHTML = `Your Akan name is ${male[2]}`;
            day.innerHTML = `you where born on a ${days[2]}`
        }else if (d == 3){
-           name.innerHTML = male[3];
+           greeting.innerHTML=`Hello ${male[3]}`;
+           name.innerHTML = `Your Akan name is ${male[3]}`;
            day.innerHTML = `you where born on a ${days[3]}`
        }else if (d == 4){
-           name.innerHTML = male[4];
+           greeting.innerHTML=`Hello ${male[4]}`;
+           name.innerHTML = `Your Akan name is ${male[4]}`;
            day.innerHTML = `you where born on a ${days[4]}`
        }else if (d == 5){
-           name.innerHTML = male[5];
+           greeting.innerHTML=`Hello ${male[5]}`;
+           name.innerHTML =`Your Akan name is ${male[5]}`;
            day.innerHTML = `you where born on a ${days[5]}`
        }else 
        {
-           name.innerHTML = male[6];
+           greeting.innerHTML=`Hello ${male[6]}`;
+           name.innerHTML = `Your Akan name is ${male[6]}`;
            day.innerHTML = `you where born on a ${days[6 ]}`
        } }else
        {
         if( d == 0){
-            name.innerHTML = female[0];
+            greeting.innerHTML=`Hello ${female[6]}`
+            name.innerHTML = `Your Akan name is ${female[0]}`;
             day.innerHTML = `you where born on a ${days[0]}`;
         }else if (d == 1){
-            name.innerHTML = female[1];
+            greeting.innerHTML=`Hello ${female[1]}`
+            name.innerHTML = `Your Akan name is ${female[1]}`;
             day.innerHTML = `you where born on a ${days[1]}`;
         }else if (d == 2){
-            name.innerHTML = female[2];
+            greeting.innerHTML=`Hello ${female[2]}`
+            name.innerHTML = `Your Akan name is ${female[2]}`;
             day.innerHTML = `you where born on a ${days[2]}`;
         }else if (d == 3){
-            name.innerHTML = female[3];
+            greeting.innerHTML=`Hello ${female[3]}`
+            name.innerHTML = `Your Akan name is ${female[3]}`;
             day.innerHTML = `you where born on a ${days[3]}`;
         }else if (d == 4){
-            name.innerHTML = female[4];
+            greeting.innerHTML=`Hello ${female[4]}`
+            name.innerHTML = `Your Akan name is ${female[4]}`;
             day.innerHTML = `you where born on a ${days[4]}`;
         }else if (d == 5){
-            name.innerHTML = female[5];
+            greeting.innerHTML=`Hello ${female[5]}`
+            name.innerHTML = `Your Akan name is ${female[5]}`;
             day.innerHTML = `you where born on a ${days[5]}`;
         }else 
         {
-            name.innerHTML = female[6];
+            greeting.innerHTML=`Hello ${female[6]}`
+            name.innerHTML = `Your Akan name is ${female[6]}`;
             day.innerHTML = `you where born on a ${days[6]}`;
         }
     
        }
     
+       display.className="oerlay"
        
-       
-    })
+})
     
