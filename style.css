@@ -3,30 +3,42 @@ body{
     color:#333;
 }
 
-.container{
+.container-fluid{
     background-color: black;
+    height:100vh;
 }
 
 .jumbotron{
     background-color: #c0c0c050;
     color:#c0c0c0;
+    height: 50vh;
+    width:50vw;
+    padding-top: 30px;
 }
 
 .grid4{
     display:flex;
-    flex-direction: row;
-    gap: 10px;
+    flex-direction: row; 
 
 }
 
 form{
-    grid-row: 1;
     background-color: cornflowerblue;
     width:50%;
     text-align: center;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #c0c0c0;
+
 }
 input{
     width:66%;
+}
+
+label{
+    font-size: larger;
+    font-weight: 600;
+    
 }
 select{
     width:66%;
@@ -36,4 +48,16 @@ select{
 
 button{
     width:66%;
+}
+
+
+#display{
+    height:50vh;
+    width:47%;
+    background-color: blue;
+    background: url('https://i1.wp.com/www.griotsrepublic.com/wp-content/uploads/2018/09/amevi-wisdom-457835-unsplash-e1536020434870.jpg?resize=1200%2C800');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
 }
