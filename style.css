@@ -1,34 +1,48 @@
 body{
-    background-color: #c0c0c0;
-    color:#333;
+    padding:0;
+    margin:0;
 }
-
 .container-fluid{
-    background-color: black;
+    background-color: #c0c0c0;
     height:100vh;
+    width:100vw;
+    padding: 0;
 }
 
 .jumbotron{
-    background-color: #c0c0c050;
+    background-color:black;
     color:#c0c0c0;
-    height: 50vh;
+    height: 60vh;
     width:50vw;
-    padding-top: 30px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 2px 2px #c0c0c0;
+    margin:0;
+    padding-bottom: 0;
 }
 
+h1{
+    color:#333;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #c0c0c0;
+}
 .grid4{
     display:flex;
-    flex-direction: row; 
+    flex-direction: column; 
+    background-color:black;
+    height: 100vh;
 
 }
 
 form{
-    background-color: cornflowerblue;
-    width:50%;
+    width:50vw;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px #c0c0c0;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.555);
+    color:#c0c0c0cc;
+    padding:20px;
 
 }
 input{
@@ -52,12 +66,39 @@ button{
 
 
 #display{
-    height:50vh;
-    width:47%;
+    position:absolute;
+    left:52%;
+    height:100vh;
+    width:45vw;
+    top: 0;
     background-color: blue;
     background: url('https://i1.wp.com/www.griotsrepublic.com/wp-content/uploads/2018/09/amevi-wisdom-457835-unsplash-e1536020434870.jpg?resize=1200%2C800');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-left: 10px;
+    margin:0;
+    padding:0;
+    box-shadow: 2px 2px 2px 2px #c0c0c0;
+
+}
+
+.overlay{
+    position:absolute;
+    bottom: 1%;
+    opacity:0.2;
+    z-index:2;
+}
+
+#display p{
+    position:absolute;
+    z-index:3;
+}
+
+
+span{
+    font-weight: 800;
+    font-size: xx-large;
+    color:black;
+    display:flex;
+    justify-content: center;
 }
